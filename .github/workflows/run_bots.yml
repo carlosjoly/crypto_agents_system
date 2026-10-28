@@ -4,7 +4,7 @@ on:
   schedule:
     # Executa a cada 15 minutos
     - cron: '*/15 * * * *'
-  workflow_dispatch: # Permite que testes o bot manualmente a partir do site do GitHub
+  workflow_dispatch: # Permite testar manualmente no site do GitHub
 
 jobs:
   run-crypto-agents:
@@ -25,10 +25,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Executar Sistema de Bots
+      - name: Executar Pipeline de Bots
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          # Podes executar todos os bots em conjunto ou um script centralizador
-          python app.py
+          python run_pipeline.py
