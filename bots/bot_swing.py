@@ -33,7 +33,7 @@ def run_bot_swing():
             
             msg = (
                 f"🎯 **ALERTA: Bot E — Oportunidade de Swing Trade**\n\n"
-                f"• Ativo: `{symbol.upper()`}\n"
+                f"• Ativo: `{symbol.upper()}`\n"
                 f"• Preço Atual: `{price:.4f}`\n"
                 f"• RSI (14): `{rsi:.2f}` (Zona de Sobrevenda / Recuo)\n"
                 f"• Volume Relativo: `{vol_rel:.2f}x`\n\n"
