@@ -1,0 +1,24 @@
+telegram:
+  token: "SEU_TELEGRAM_BOT_TOKEN_AQUI"
+  chat_id: "SEU_CHAT_ID_AQUI"
+
+market:
+  symbols: ["bitcoin", "ethereum", "solana", "ripple", "cardano"]
+  timeframe_minutes: 15
+
+technical_params:
+  price_change_threshold_pct: 3.5
+  rsi_period: 14
+  rsi_oversold: 30
+  rsi_overbought: 70
+  atr_period: 14
+  volume_ma_period: 20
+  volume_spike_multiplier: 2.0
+
+fundamental_weights:
+  utility_quality: 25
+  team_execution: 15
+  tokenomics_unlocks: 20
+  adoption_onchain: 15
+  security_transparency: 15
+  organic_social_interest: 10
