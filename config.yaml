@@ -1,6 +1,6 @@
 telegram:
-  token: "SEU_TELEGRAM_BOT_TOKEN_AQUI"
-  chat_id: "SEU_CHAT_ID_AQUI"
+  token: "8994534050:AAHF1_6UfQ-0-S9MHJoBLfWHDCjNywm9pwo"
+  chat_id: "8762944257"
 
 market:
   symbols: ["bitcoin", "ethereum", "solana", "ripple", "cardano"]
