@@ -3,7 +3,7 @@ name: Executar Bots de Criptomoedas 24/7
 on:
   schedule:
     # Executa a cada 15 minutos
-    - cron: '*/15 * * * *'
+    #- cron: '*/15 * * * *'
   workflow_dispatch: # Permite testar manualmente no site do GitHub
 
 jobs:
