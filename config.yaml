@@ -1,6 +1,6 @@
 telegram:
-  token: "8994534050:AAHF1_6UfQ-0-S9MHJoBLfWHDCjNywm9pwo"
-  chat_id: "8762944257"
+  token: "tOKEN"
+  chat_id: "ID"
 
 market:
   symbols: ["bitcoin", "ethereum", "solana", "ripple", "cardano"]
